@@ -10,8 +10,8 @@ export default function Home() {
         <>
             <Header />
             {/* Home background section */}
-            <section className='home-img-sec  d-flex align-content-center'>
-                <div className='container h-100'>
+            <section className='home-img-sec d-flex align-items-center'>
+                <div className='container'>
                     <div className='row '>
                         <div className='col-12 col-lg-8'>
                             <div>

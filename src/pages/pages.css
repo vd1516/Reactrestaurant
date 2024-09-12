@@ -57,6 +57,27 @@
 .findus-img{
     border: 3px solid white;
 }
+
+/* Menu Section */
+.menu-bg{
+    background-image: linear-gradient(#3e3e3eb3,#3e3e3eb3)
+    ,url('https://reactclonerestaurant.vercel.app/static/media/menu-img.3aaacc0dcb9f62d15929.jpg');
+    background-size:cover;
+    min-height: 410px;
+}
+.menu-bg > h1{
+    font-size: 4rem;
+}
+.menu-img{
+    min-height: 1050px;
+}
+.white{
+    color: white !important;
+}
+.black{
+    color: black !important;
+}
+
 @media screen and (max-width: 991px) {
     .home-img-sec{
         background-size: contain;

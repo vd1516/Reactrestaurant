@@ -1,90 +1,138 @@
 /* Home Section */
-.vd-tbdr{
+.vd-tbdr {
     border: 1px solid black;
 }
-.home-img-sec{
+
+.home-img-sec {
     min-height: 775px;
     background-image: url('../img/header-img.jpg');
     box-shadow: 0px 5px 5px 2px lightgray;
 }
-.home-img-heading{
+
+.home-img-heading {
     font-size: 4rem;
 }
-.home-about-sec{
+
+.home-about-sec {
     min-height: 570px;
 }
-.home-about-img > img{
+
+.home-about-img>img {
     border: 5px solid black;
 }
-.more-btn > a{
+
+.more-btn>a {
     color: green !important;
 }
-.more-btn > a:focus,.more-btn > a:hover{
+
+.more-btn>a:focus,
+.more-btn>a:hover {
     color: white !important;
 }
-.home-fav-sec{
+
+.home-fav-sec {
     min-height: 565px;
-    background-image: linear-gradient(#000000b3,#000000b3)
-    ,url('https://reactclonerestaurant.vercel.app/static/media/menu-img.3aaacc0dcb9f62d15929.jpg');
-    background-size:cover;
+    background-image: linear-gradient(#000000b3, #000000b3), url('https://reactclonerestaurant.vercel.app/static/media/menu-img.3aaacc0dcb9f62d15929.jpg');
+    background-size: cover;
 }
-.fav-list{
+
+.fav-list {
     font-size: 1.5rem;
 }
-.sec-black{
-    background-color: black;
+
+.sec-black {
+    background-color: #212529;
 }
-.sec-white{
+
+.sec-white {
     background-color: white;
 }
-.gallery{
+
+.gallery {
     min-height: 1225px;
 }
-.gallery > h1{
+
+.gallery>h1 {
     height: 10%;
     line-height: 100px;
 }
-.gallery > div{
+
+.gallery>div {
     height: 89%;
 }
-.img-border{
+
+.img-border {
     border: 4px solid black;
 }
-.home-find-sec{
+
+.home-find-sec {
     min-height: 600px;
     background-color: #212529;
 }
-.findus-img{
+
+.findus-img {
     border: 3px solid white;
 }
 
 /* Menu Section */
-.menu-bg{
-    background-image: linear-gradient(#3e3e3eb3,#3e3e3eb3)
-    ,url('https://reactclonerestaurant.vercel.app/static/media/menu-img.3aaacc0dcb9f62d15929.jpg');
-    background-size:cover;
+.menu-bg {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 50%;
     min-height: 410px;
 }
-.menu-bg > h1{
+
+.menu-bg-img {
+    background-image: linear-gradient(#3e3e3eb3, #3e3e3eb3), url('https://reactclonerestaurant.vercel.app/static/media/menu-img.3aaacc0dcb9f62d15929.jpg');
+}
+
+.menu-bg>h1 {
     font-size: 4rem;
 }
-.menu-img{
+
+.menu-img {
     min-height: 1050px;
 }
-.white{
+
+.white {
     color: white !important;
 }
-.black{
+
+.black {
     color: black !important;
 }
 
+/* About Section */
+.about-bg-img {
+    background-image: linear-gradient(#3e3e3eb3, #3e3e3eb3), url('https://reactclonerestaurant.vercel.app/static/media/about-page-img.6b438d71a8290df479ab.jpg');
+}
+.about-content-sec{
+    min-height: 900px;
+}
+.about-img-border{
+    border: 4px solid black;
+}
+.review-sec{
+    min-height: 800px;
+}
+.rev-div{
+    min-height: 250px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px 2px lightgray;
+}
+.rvwprofile{
+    min-height: 125px;
+}
+
+
 @media screen and (max-width: 991px) {
-    .home-img-sec{
+    .home-img-sec {
         background-size: contain;
         background-repeat: no-repeat;
         background-size: 100% 100%;
     }
-    .home-about-img > img {
+
+    .home-about-img>img {
         display: none;
     }
 }

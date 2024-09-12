@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function ImageGallery({ color }) {
     return (
-        <section className={`gallery $(color=="white") ? 'sec-white' : 'sec-black'`}>
-            <h1 className='pt-3 poppins-bold text-center'>Image Gallery</h1>
+        <section className={`gallery ${(color=="white") ? 'sec-white' : 'sec-black'}`}>
+            <h1 className={`pt-3 poppins-bold text-center ${(color=="white") ? 'black' : 'white'}`}>Image Gallery</h1>
             <div className="container p-0">
                 <div className="row m-0 h-100">
                     <div className="col-12 col-md-4 h-100 p-4">

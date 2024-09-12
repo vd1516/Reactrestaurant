@@ -3,6 +3,7 @@ import Header from '../common/header'
 import MenuImgSec from './menuimgsec'
 import MenuListSec from './menulistsec'
 import Footer from '../common/footer'
+import CoverSec from './coversec'
 
 export default function Menu() {
 
@@ -10,9 +11,7 @@ export default function Menu() {
     <>
       <Header />
       {/* Menu Background Section */}
-      <section className='menu-bg d-flex justify-content-center align-items-center'>
-        <h1 className='poppins-medium text-white'>Menu</h1>
-      </section>
+      <CoverSec title={'Menu'} isMenu={true} />
 
       {/* Menu Image First Section */}
       <section className='bg-white menu-img-sec'>

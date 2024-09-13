@@ -11,7 +11,7 @@ export default function Menu() {
     <>
       <Header />
       {/* Menu Background Section */}
-      <CoverSec title={'Menu'} isMenu={true} />
+      <CoverSec menu={'menu'} />
 
       {/* Menu Image First Section */}
       <section className='bg-white menu-img-sec'>
@@ -64,7 +64,7 @@ export default function Menu() {
           <div className="row m-0">
             <h1 className='my-4 text-center poppins-bold text-success'>DESSERT</h1>
             <div className="col-12 col-lg-6 p-0 d-flex justify-content-center align-items-center">
-              <MenuListSec index={2} isWhite={true} />
+              <MenuListSec index={3} isWhite={true} />
             </div>
             <div className="col-12 col-lg-6 p-0 d-flex justify-content-center align-items-center">
               <MenuImgSec border='4px solid white' data='https://reactclonerestaurant.vercel.app/static/media/dessert.d8b55a4739399e30b6c9.jpg' />

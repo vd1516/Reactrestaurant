@@ -4,6 +4,7 @@ import './pages.css'
 import { Link } from 'react-router-dom'
 import ImageGallery from './imagegallery'
 import Footer from '../common/footer'
+import AddresSsec from './addresssec'
 
 export default function Home() {
     return (
@@ -106,18 +107,10 @@ export default function Home() {
             <ImageGallery color={'white'} />
 
             {/* Find us Section */}
-            <section className='home-find-sec mt-2 d-flex justify-content-center align-items-center'>
+            <section className='sec-black home-find-sec mt-2 d-flex justify-content-center align-items-center'>
                 <div className="container p-0 h-100">
                     <div className="row m-0 h-100">
-                        <div className="col-12 col-lg-6 p-0 d-flex justify-content-center align-items-center text-center">
-                            <div className='text-white'>
-                                <h1 className='text-center pt-4'>Where To Find Us</h1>
-                                <p className='text-center poppins-regular mt-2'>47 Baker Street, London LD1 0ND</p>
-                                <h4 className='text-center poppins-bold mt-5'>Opening Hours</h4>
-                                <p className='text-center poppins-regular m-0'>Mon - Fri: 09:00 - 17:00</p>
-                                <p className='text-center poppins-regular m-0'>Sat - Sun: 10:00 - 15:00</p>
-                            </div>
-                        </div>
+                        <AddresSsec isWhite={true}  />
                         <div className="col-12 col-lg-6 d-flex justify-content-center align-items-center p-0">
                             <img src='https://reactclonerestaurant.vercel.app/static/media/contact-img.d683a0bb9ff6c65c295a.jpg'
                                 className='findus-img img-fluid w-50' />

@@ -3,6 +3,7 @@ import Header from '../common/header'
 import CoverSec from './coversec'
 import ImageGallery from './imagegallery'
 import Review from './review'
+import Footer from '../common/footer'
 
 export default function About() {
   return (
@@ -10,7 +11,7 @@ export default function About() {
       <Header />
 
       {/* About Background Section */}
-      <CoverSec title={'About'} isMenu={false} />
+      <CoverSec menu={'about'} />
 
       {/* About Second Section */}
       <section className='about-content-sec mt-5'>
@@ -58,7 +59,7 @@ export default function About() {
       <ImageGallery color={'other'} />
 
       {/* Review Component */}
-      <Review />
+      <Review color={'white'} txtColor={'black'}/>
 
         {/* Footer Component */}
         <Footer />

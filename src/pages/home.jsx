@@ -13,7 +13,7 @@ export default function Home() {
             {/* Home background section */}
             <section className='home-img-sec d-flex align-items-center'>
                 <div className='container'>
-                    <div className='row '>
+                    <div className='row '>  
                         <div className='col-12 col-lg-8'>
                             <div>
                                 <h2 className='poppins-regular'>Welcome To</h2>

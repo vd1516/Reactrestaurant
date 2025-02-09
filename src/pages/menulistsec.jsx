@@ -4,6 +4,7 @@ import './pages.css'
 
 export default function MenuListSec({index,isWhite}) {
     console.log(isWhite)
+
     return (
             <div>
                 <h2 className={`poppins-medium text-center ${(isWhite) ? 'white' : 'black'}`}>{menuData[index].title1}</h2>
